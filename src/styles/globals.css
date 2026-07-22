@@ -1,0 +1,88 @@
+@import 'tailwindcss';
+
+/* Tailwind v4 is media-query dark mode by default; we toggle a `.dark`
+   class on <html> instead (see `useTheme`), so `dark:` needs to target that. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Electric-indigo accent — the one deliberate splash of color against the
+     zinc/black-and-white base palette. */
+  --color-accent-50: #f2f1ff;
+  --color-accent-100: #e6e3ff;
+  --color-accent-200: #d1cdff;
+  --color-accent-300: #b3acff;
+  --color-accent-400: #9c8cff;
+  --color-accent-500: #7c6cff;
+  --color-accent-600: #6152e0;
+  --color-accent-700: #4c3fc0;
+  --color-accent-800: #3d3399;
+  --color-accent-900: #332b7a;
+  --color-accent-950: #1f1a4d;
+
+  --shadow-glow: 0 0 0 1px var(--color-accent-500), 0 8px 32px -8px var(--color-accent-500);
+
+  --animate-fade-in: fade-in 0.5s ease-out;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes modal-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-white font-sans text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-50;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    @apply bg-accent-500/25 text-inherit;
+  }
+
+  /* Hidden by default; only shown when CustomCursor mounts (fine pointer + motion allowed). */
+  .custom-cursor-active,
+  .custom-cursor-active * {
+    cursor: none !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-zinc-300 dark:bg-zinc-700;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-zinc-400 dark:bg-zinc-600;
+  }
+}

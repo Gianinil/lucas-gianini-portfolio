@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Lucas Gianini — Software Engineer & Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfólio de Lucas Gianini, Software Engineer especializado em React, TypeScript e .NET. Projetos, experiência e formas de contato."
+    />
+    <meta name="author" content="Lucas Gianini" />
+    <meta
+      name="keywords"
+      content="Lucas Gianini, Software Engineer, Desenvolvedor Front-End, Full Stack Developer, React, TypeScript, .NET, Portfólio"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://gianinil.github.io/lucas-gianini-portfolio/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Lucas Gianini — Portfólio" />
+    <meta property="og:title" content="Lucas Gianini — Software Engineer & Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Portfólio de Lucas Gianini, Software Engineer especializado em React, TypeScript e .NET. Projetos, experiência e formas de contato."
+    />
+    <meta property="og:url" content="https://gianinil.github.io/lucas-gianini-portfolio/" />
+    <meta property="og:image" content="https://gianinil.github.io/lucas-gianini-portfolio/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lucas Gianini — Software Engineer & Full Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Portfólio de Lucas Gianini, Software Engineer especializado em React, TypeScript e .NET."
+    />
+    <meta name="twitter:image" content="https://gianinil.github.io/lucas-gianini-portfolio/og-image.svg" />
+
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lucas Gianini",
+        "jobTitle": "Software Engineer",
+        "url": "https://gianinil.github.io/lucas-gianini-portfolio/",
+        "sameAs": ["https://github.com/Gianinil", "https://www.linkedin.com/in/SEU_USUARIO"],
+        "knowsAbout": ["React", "TypeScript", ".NET", "C#", "Software Engineering"]
+      }
+    </script>
+
+    <script>
+      // Aplica o tema salvo (ou a preferência do sistema) antes do primeiro
+      // paint, evitando flash de tema errado — useTheme.ts assume o controle depois.
+      (function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme');
+          var isDark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.classList.toggle('dark', isDark);
+        } catch (e) {
+          /* localStorage indisponível (modo privado etc.) — segue com o tema claro padrão. */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

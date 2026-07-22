@@ -1,0 +1,17 @@
+{
+  "name": "Lucas Gianini — Software Engineer",
+  "short_name": "Lucas Gianini",
+  "description": "Portfólio de Lucas Gianini, Software Engineer especializado em React, TypeScript e .NET.",
+  "start_url": "/lucas-gianini-portfolio/",
+  "scope": "/lucas-gianini-portfolio/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

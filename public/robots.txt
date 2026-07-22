@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gianinil.github.io/lucas-gianini-portfolio/sitemap.xml

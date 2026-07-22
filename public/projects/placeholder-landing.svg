@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#18181b" />
+  <rect x="16" y="16" width="768" height="468" rx="16" fill="none" stroke="#3f3f46" stroke-width="2" stroke-dasharray="10 8" />
+  <text x="400" y="240" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="600" font-size="22" fill="#71717a">PLACEHOLDER</text>
+  <text x="400" y="272" text-anchor="middle" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="30" fill="#a1a1aa">Landing Page</text>
+  <text x="400" y="304" text-anchor="middle" font-family="'Inter',sans-serif" font-size="17" fill="#52525b">Substitua por um projeto real</text>
+</svg>

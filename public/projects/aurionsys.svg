@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#18181b" />
+      <stop offset="1" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c6cff" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)" />
+  <rect x="0" y="0" width="800" height="6" fill="url(#accent)" />
+  <g opacity="0.5" stroke="#3f3f46" stroke-width="1">
+    <rect x="80" y="150" width="200" height="140" rx="12" fill="none" />
+    <rect x="300" y="120" width="160" height="200" rx="12" fill="none" />
+    <rect x="480" y="170" width="220" height="110" rx="12" fill="none" />
+  </g>
+  <text x="80" y="380" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="46" fill="#fafafa">AurionSYS</text>
+  <text x="80" y="418" font-family="'Inter',sans-serif" font-weight="500" font-size="20" fill="#9c8cff">ERP multi-tenant &#183; .NET</text>
+</svg>

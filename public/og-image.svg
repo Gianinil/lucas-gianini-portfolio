@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09090b" />
+      <stop offset="1" stop-color="#18181b" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.15" r="0.55">
+      <stop offset="0" stop-color="#7c6cff" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#7c6cff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+
+  <g opacity="0.5">
+    <rect x="80" y="80" width="72" height="72" rx="18" fill="none" stroke="#3f3f46" stroke-width="1.5" />
+  </g>
+
+  <text x="80" y="330" font-family="'Space Grotesk', 'Inter', ui-sans-serif, system-ui, sans-serif" font-weight="700" font-size="72" fill="#fafafa">
+    Lucas Gianini
+  </text>
+  <text x="80" y="392" font-family="'Inter', ui-sans-serif, system-ui, sans-serif" font-weight="500" font-size="34" fill="#7c6cff">
+    Software Engineer &#183; Full Stack Developer
+  </text>
+  <text x="80" y="452" font-family="'Inter', ui-sans-serif, system-ui, sans-serif" font-weight="400" font-size="24" fill="#a1a1aa">
+    React &#183; TypeScript &#183; .NET
+  </text>
+
+  <text x="80" y="560" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="28" fill="#52525b">
+    LG.
+  </text>
+</svg>
