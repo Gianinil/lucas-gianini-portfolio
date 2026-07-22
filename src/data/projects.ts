@@ -62,7 +62,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'landing-page-placeholder',
-    title: 'Landing Page — Produto SaaS',
+    title: 'Landing Page para pisicólogo',
     description:
       'Página de venda de curso para pisicólogo ',
     image: withBase('projects/placeholder-landing.svg'),
