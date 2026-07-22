@@ -17,9 +17,9 @@ export const SKILLS: Skill[] = [
   { name: 'React Native / Expo', icon: 'react', category: 'frontend', level: 78 },
 
   // Backend
-  { name: 'C# / .NET', icon: 'dotnet', category: 'backend', level: 85 },
-  { name: 'ASP.NET Core', icon: 'dotnet', category: 'backend', level: 80 },
-  { name: 'Node.js', icon: 'nodejs', category: 'backend', level: 70 },
+  { name: 'C# / .NET', icon: 'dotnet', category: 'backend', level: 75 },
+  { name: 'ASP.NET Core', icon: 'dotnet', category: 'backend', level: 40 },
+  { name: 'Node.js', icon: 'nodejs', category: 'backend', level: 60 },
 
   // Database
   { name: 'Entity Framework Core', icon: 'ef', category: 'database', level: 82 },
@@ -32,7 +32,6 @@ export const SKILLS: Skill[] = [
   { name: 'Figma', icon: 'figma', category: 'tools', level: 65 },
 
   // Cloud
-  { name: 'Azure', icon: 'azure', category: 'cloud', level: 60 },
   { name: 'Vercel', icon: 'vercel', category: 'cloud', level: 75 },
 
   // DevOps

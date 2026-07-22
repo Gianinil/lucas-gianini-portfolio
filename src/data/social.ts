@@ -16,13 +16,13 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     platform: 'linkedin',
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/SEU_USUARIO',
+    href: 'https://www.linkedin.com/in/lucasgianini01',
     icon: 'linkedin',
   },
   {
     platform: 'instagram',
     label: 'Instagram',
-    href: 'https://instagram.com/SEU_USUARIO',
+    href: 'https://instagram.com/lukotag',
     icon: 'instagram',
   },
   {
@@ -34,7 +34,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     platform: 'whatsapp',
     label: 'WhatsApp',
-    href: 'https://wa.me/55SEUNUMERO',
+    href: 'https://wa.me/44999162330',
     icon: 'whatsapp',
   },
   {
