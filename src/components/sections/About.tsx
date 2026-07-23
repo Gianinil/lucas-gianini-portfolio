@@ -4,6 +4,7 @@ import { RevealOnScroll } from '@/components/ui/RevealOnScroll';
 import { Badge } from '@/components/ui/Badge';
 import { StatCounter } from '@/components/ui/StatCounter';
 import { fadeInUp, scaleIn } from '@/animations/variants';
+import { withBase } from '@/utils/asset';
 
 const FAVORITE_TECH = ['React', 'TypeScript', '.NET', 'Tailwind CSS', 'PostgreSQL', 'Framer Motion'];
 
@@ -26,7 +27,7 @@ export function About() {
           <div className="relative">
             <div className="from-accent-500/20 absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-br to-cyan-400/10 blur-2xl" />
             <img
-              src="/profile.jpg"
+              src={withBase('profile.jpg')}
               alt="Foto Lucas Gianini"
               className="aspect-square w-full rounded-3xl object-cover"
             />
