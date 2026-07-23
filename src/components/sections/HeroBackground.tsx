@@ -14,8 +14,6 @@ export function HeroBackground() {
       <div
         className="absolute inset-0 opacity-[0.35] dark:opacity-[0.25]"
         style={{
-          backgroundImage:
-            'linear-gradient(to right, currentColor 1px, transparent 1px), linear-gradient(to bottom, currentColor 1px, transparent 1px)',
           backgroundSize: '64px 64px',
           maskImage: 'radial-gradient(ellipse 60% 50% at 50% 0%, black 40%, transparent 100%)',
           WebkitMaskImage: 'radial-gradient(ellipse 60% 50% at 50% 0%, black 40%, transparent 100%)',

@@ -20,6 +20,7 @@ export const SKILLS: Skill[] = [
   { name: 'C# / .NET', icon: 'dotnet', category: 'backend', level: 75 },
   { name: 'ASP.NET Core', icon: 'dotnet', category: 'backend', level: 40 },
   { name: 'Node.js', icon: 'nodejs', category: 'backend', level: 60 },
+  { name: 'Python', icon: 'python', category: 'backend', level: 65 }, // TODO: ajuste pro seu nível real
 
   // Database
   { name: 'Entity Framework Core', icon: 'ef', category: 'database', level: 82 },

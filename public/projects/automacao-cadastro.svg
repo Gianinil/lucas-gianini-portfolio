@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101820" />
+      <stop offset="1" stop-color="#080b10" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3776ab" />
+      <stop offset="1" stop-color="#ffd43b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)" />
+  <rect x="0" y="0" width="800" height="6" fill="url(#accent)" />
+
+  <!-- spreadsheet -->
+  <g transform="translate(70,90)">
+    <rect x="0" y="0" width="200" height="220" rx="14" fill="#132433" stroke="#22384a" stroke-width="1.5" />
+    <rect x="0" y="0" width="200" height="34" rx="14" fill="#1a3547" />
+    <text x="16" y="23" font-family="'Inter',sans-serif" font-weight="600" font-size="14" fill="#8fc4e8">cadastros.xlsx</text>
+    <g stroke="#22384a" stroke-width="1">
+      <line x1="0" y1="66" x2="200" y2="66" />
+      <line x1="0" y1="98" x2="200" y2="98" />
+      <line x1="0" y1="130" x2="200" y2="130" />
+      <line x1="0" y1="162" x2="200" y2="162" />
+      <line x1="0" y1="194" x2="200" y2="194" />
+      <line x1="70" y1="34" x2="70" y2="220" />
+      <line x1="140" y1="34" x2="140" y2="220" />
+    </g>
+    <g fill="#3a5f78">
+      <rect x="12" y="46" width="46" height="10" rx="3" />
+      <rect x="82" y="46" width="46" height="10" rx="3" />
+      <rect x="152" y="46" width="36" height="10" rx="3" />
+      <rect x="12" y="78" width="46" height="10" rx="3" />
+      <rect x="82" y="78" width="46" height="10" rx="3" />
+      <rect x="152" y="78" width="36" height="10" rx="3" />
+      <rect x="12" y="110" width="46" height="10" rx="3" />
+      <rect x="82" y="110" width="46" height="10" rx="3" />
+      <rect x="152" y="110" width="36" height="10" rx="3" />
+    </g>
+  </g>
+
+  <!-- automation flow -->
+  <g transform="translate(320,175)" stroke="#ffd43b" stroke-width="2.5" fill="none">
+    <path d="M0 30 h60" />
+    <path d="M52 22 l12 8 -12 8 z" fill="#ffd43b" stroke="none" />
+  </g>
+  <circle cx="400" cy="205" r="24" fill="none" stroke="#3776ab" stroke-width="2.5" />
+  <text x="400" y="213" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="700" font-size="18" fill="#8fc4e8">Py</text>
+  <g transform="translate(424,175)" stroke="#ffd43b" stroke-width="2.5" fill="none">
+    <path d="M0 30 h60" />
+    <path d="M52 22 l12 8 -12 8 z" fill="#ffd43b" stroke="none" />
+  </g>
+
+  <!-- destination form -->
+  <g transform="translate(500,90)">
+    <rect x="0" y="0" width="230" height="220" rx="14" fill="#132433" stroke="#22384a" stroke-width="1.5" />
+    <circle cx="20" cy="18" r="5" fill="#ef4444" opacity="0.6" />
+    <circle cx="36" cy="18" r="5" fill="#facc15" opacity="0.6" />
+    <circle cx="52" cy="18" r="5" fill="#22c55e" opacity="0.6" />
+    <text x="115" y="60" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="600" font-size="14" fill="#8fc4e8">Sistema da empresa</text>
+    <g fill="#22384a">
+      <rect x="20" y="82" width="190" height="26" rx="6" />
+      <rect x="20" y="118" width="190" height="26" rx="6" />
+      <rect x="20" y="154" width="190" height="26" rx="6" />
+    </g>
+    <g fill="#3776ab" opacity="0.85">
+      <circle cx="200" cy="95" r="7" />
+      <path d="M197 95 l2 3 5 -6" stroke="#0b1a24" stroke-width="1.5" fill="none" />
+      <circle cx="200" cy="131" r="7" />
+      <path d="M197 131 l2 3 5 -6" stroke="#0b1a24" stroke-width="1.5" fill="none" />
+    </g>
+  </g>
+
+  <text x="80" y="380" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="38" fill="#eef6fb">Automação de Cadastro</text>
+  <text x="80" y="414" font-family="'Inter',sans-serif" font-weight="500" font-size="19" fill="#ffd43b">Python &#183; Pandas &#183; Selenium</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c1206" />
+      <stop offset="1" stop-color="#0c0904" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fb923c" />
+      <stop offset="1" stop-color="#facc15" />
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27180a" />
+      <stop offset="1" stop-color="#1c1206" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)" />
+  <rect x="0" y="0" width="800" height="6" fill="url(#accent)" />
+
+  <!-- mascot orb -->
+  <circle cx="640" cy="140" r="46" fill="none" stroke="#fb923c" stroke-width="2" opacity="0.6" />
+  <text x="640" y="153" text-anchor="middle" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="34" fill="#fde68a">7×8</text>
+
+  <!-- game tiles grid -->
+  <g font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="26">
+    <g>
+      <rect x="80" y="90" width="86" height="86" rx="16" fill="url(#tile)" stroke="#3f2a12" stroke-width="1.5" />
+      <text x="123" y="140" text-anchor="middle" fill="#fdba74">42</text>
+    </g>
+    <g>
+      <rect x="182" y="90" width="86" height="86" rx="16" fill="url(#tile)" stroke="#3f2a12" stroke-width="1.5" />
+      <text x="225" y="140" text-anchor="middle" fill="#fde68a">56</text>
+    </g>
+    <g>
+      <rect x="284" y="90" width="86" height="86" rx="16" fill="url(#tile)" stroke="#facc15" stroke-width="2" />
+      <text x="327" y="140" text-anchor="middle" fill="#facc15">?</text>
+    </g>
+    <g>
+      <rect x="80" y="192" width="86" height="86" rx="16" fill="url(#tile)" stroke="#3f2a12" stroke-width="1.5" />
+      <text x="123" y="242" text-anchor="middle" fill="#fdba74">63</text>
+    </g>
+    <g>
+      <rect x="182" y="192" width="86" height="86" rx="16" fill="url(#tile)" stroke="#3f2a12" stroke-width="1.5" />
+      <text x="225" y="242" text-anchor="middle" fill="#fde68a">81</text>
+    </g>
+    <g>
+      <rect x="284" y="192" width="86" height="86" rx="16" fill="url(#tile)" stroke="#3f2a12" stroke-width="1.5" />
+      <text x="327" y="242" text-anchor="middle" fill="#fdba74">24</text>
+    </g>
+  </g>
+
+  <!-- progress stars -->
+  <g fill="#facc15" opacity="0.85">
+    <path d="M580 210 l6 13 14 2 -10 10 2 14 -12 -7 -12 7 2 -14 -10 -10 14 -2 z" />
+    <path d="M626 210 l6 13 14 2 -10 10 2 14 -12 -7 -12 7 2 -14 -10 -10 14 -2 z" />
+    <path d="M672 210 l6 13 14 2 -10 10 2 14 -12 -7 -12 7 2 -14 -10 -10 14 -2 z" opacity="0.35" />
+  </g>
+
+  <text x="80" y="380" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="42" fill="#fff7ed">Trilha da Tabuada</text>
+  <text x="80" y="416" font-family="'Inter',sans-serif" font-weight="500" font-size="20" fill="#fdba74">Jogo educativo &#183; React</text>
+</svg>

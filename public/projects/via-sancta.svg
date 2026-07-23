@@ -1,22 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#18181b" />
-      <stop offset="1" stop-color="#09090b" />
+      <stop offset="0" stop-color="#1a1410" />
+      <stop offset="1" stop-color="#0d0a08" />
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#22d3ee" />
-      <stop offset="1" stop-color="#7c6cff" />
+      <stop offset="0" stop-color="#caa15d" />
+      <stop offset="1" stop-color="#e8c78a" />
     </linearGradient>
   </defs>
   <rect width="800" height="500" fill="url(#g)" />
   <rect x="0" y="0" width="800" height="6" fill="url(#accent)" />
-  <g opacity="0.55" stroke="#3f3f46" stroke-width="1">
-    <rect x="330" y="90" width="140" height="260" rx="20" fill="none" />
-    <line x1="360" y1="120" x2="440" y2="120" />
-    <line x1="360" y1="150" x2="440" y2="150" />
-    <line x1="360" y1="180" x2="420" y2="180" />
+
+  <!-- phone frame -->
+  <g transform="translate(300,50)">
+    <rect x="0" y="0" width="200" height="360" rx="28" fill="#171310" stroke="#3a2f22" stroke-width="2" />
+    <rect x="14" y="20" width="172" height="8" rx="4" fill="#3a2f22" />
+    <text x="100" y="58" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="600" font-size="14" fill="#e8c78a">Orações do dia</text>
+
+    <g font-family="'Inter',sans-serif" font-size="12">
+      <rect x="16" y="76" width="168" height="46" rx="10" fill="#221b14" stroke="#3a2f22" stroke-width="1" />
+      <circle cx="34" cy="99" r="9" fill="#caa15d" opacity="0.6" />
+      <rect x="52" y="90" width="110" height="8" rx="4" fill="#5a4a34" />
+      <rect x="52" y="104" width="70" height="7" rx="4" fill="#3a2f22" />
+
+      <rect x="16" y="130" width="168" height="46" rx="10" fill="#221b14" stroke="#3a2f22" stroke-width="1" />
+      <circle cx="34" cy="153" r="9" fill="#e8c78a" opacity="0.6" />
+      <rect x="52" y="144" width="120" height="8" rx="4" fill="#5a4a34" />
+      <rect x="52" y="158" width="80" height="7" rx="4" fill="#3a2f22" />
+
+      <rect x="16" y="184" width="168" height="46" rx="10" fill="#221b14" stroke="#3a2f22" stroke-width="1" />
+      <circle cx="34" cy="207" r="9" fill="#caa15d" opacity="0.6" />
+      <rect x="52" y="198" width="100" height="8" rx="4" fill="#5a4a34" />
+      <rect x="52" y="212" width="66" height="7" rx="4" fill="#3a2f22" />
+    </g>
+
+    <!-- bottom nav -->
+    <rect x="0" y="320" width="200" height="40" rx="0" fill="#171310" />
+    <circle cx="60" cy="340" r="7" fill="#5a4a34" />
+    <circle cx="100" cy="340" r="7" fill="#e8c78a" />
+    <circle cx="140" cy="340" r="7" fill="#5a4a34" />
   </g>
-  <text x="80" y="380" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="46" fill="#fafafa">Via Sancta</text>
-  <text x="80" y="418" font-family="'Inter',sans-serif" font-weight="500" font-size="20" fill="#67e8f9">App mobile &#183; Expo / React Native</text>
+
+  <text x="80" y="380" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="42" fill="#faf6ee">Via Sancta</text>
+  <text x="80" y="416" font-family="'Inter',sans-serif" font-weight="500" font-size="19" fill="#caa15d">App mobile &#183; Expo / React Native</text>
 </svg>

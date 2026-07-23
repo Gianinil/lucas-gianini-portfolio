@@ -8,14 +8,60 @@
       <stop offset="0" stop-color="#7c6cff" />
       <stop offset="1" stop-color="#22d3ee" />
     </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7c6cff" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
   </defs>
   <rect width="800" height="500" fill="url(#g)" />
   <rect x="0" y="0" width="800" height="6" fill="url(#accent)" />
-  <g opacity="0.5" stroke="#3f3f46" stroke-width="1">
-    <rect x="80" y="150" width="200" height="140" rx="12" fill="none" />
-    <rect x="300" y="120" width="160" height="200" rx="12" fill="none" />
-    <rect x="480" y="170" width="220" height="110" rx="12" fill="none" />
+
+  <!-- sidebar -->
+  <rect x="0" y="6" width="76" height="494" fill="#141417" />
+  <g fill="#3f3f46">
+    <rect x="26" y="40" width="24" height="24" rx="6" fill="#7c6cff" opacity="0.8" />
+    <rect x="26" y="90" width="24" height="24" rx="6" />
+    <rect x="26" y="130" width="24" height="24" rx="6" />
+    <rect x="26" y="170" width="24" height="24" rx="6" />
   </g>
-  <text x="80" y="380" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="46" fill="#fafafa">AurionSYS</text>
-  <text x="80" y="418" font-family="'Inter',sans-serif" font-weight="500" font-size="20" fill="#9c8cff">ERP multi-tenant &#183; .NET</text>
+
+  <!-- stat cards -->
+  <g>
+    <rect x="106" y="46" width="150" height="86" rx="14" fill="#1c1c21" stroke="#2a2a30" stroke-width="1.5" />
+    <text x="124" y="80" font-family="'Inter',sans-serif" font-size="13" fill="#8b8b95">Lojas ativas</text>
+    <text x="124" y="112" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="28" fill="#fafafa">12</text>
+
+    <rect x="270" y="46" width="150" height="86" rx="14" fill="#1c1c21" stroke="#2a2a30" stroke-width="1.5" />
+    <text x="288" y="80" font-family="'Inter',sans-serif" font-size="13" fill="#8b8b95">Vendas / mês</text>
+    <text x="288" y="112" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="28" fill="#67e8f9">R$ 84k</text>
+
+    <rect x="434" y="46" width="150" height="86" rx="14" fill="#1c1c21" stroke="#2a2a30" stroke-width="1.5" />
+    <text x="452" y="80" font-family="'Inter',sans-serif" font-size="13" fill="#8b8b95">Itens estoque</text>
+    <text x="452" y="112" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="28" fill="#fafafa">3.204</text>
+  </g>
+
+  <!-- mini bar chart -->
+  <g transform="translate(106,150)">
+    <rect x="0" y="0" width="478" height="150" rx="14" fill="#1c1c21" stroke="#2a2a30" stroke-width="1.5" />
+    <g fill="url(#bar)">
+      <rect x="24" y="70" width="26" height="60" rx="4" />
+      <rect x="64" y="50" width="26" height="80" rx="4" />
+      <rect x="104" y="30" width="26" height="100" rx="4" />
+      <rect x="144" y="55" width="26" height="75" rx="4" />
+      <rect x="184" y="20" width="26" height="110" rx="4" />
+      <rect x="224" y="45" width="26" height="85" rx="4" />
+      <rect x="264" y="35" width="26" height="95" rx="4" />
+    </g>
+    <line x1="24" y1="140" x2="440" y2="140" stroke="#2a2a30" stroke-width="1.5" />
+  </g>
+
+  <!-- table rows -->
+  <g transform="translate(106,318)" opacity="0.85">
+    <rect x="0" y="0" width="478" height="16" rx="6" fill="#27272a" />
+    <rect x="0" y="26" width="420" height="16" rx="6" fill="#1c1c21" />
+    <rect x="0" y="52" width="440" height="16" rx="6" fill="#1c1c21" />
+  </g>
+
+  <text x="80" y="410" font-family="'Space Grotesk','Inter',sans-serif" font-weight="700" font-size="42" fill="#fafafa">AurionSYS</text>
+  <text x="80" y="444" font-family="'Inter',sans-serif" font-weight="500" font-size="19" fill="#9c8cff">ERP multi-tenant &#183; .NET</text>
 </svg>

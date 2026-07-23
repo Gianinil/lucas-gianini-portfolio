@@ -2,13 +2,9 @@ import type { Project } from '@/types';
 import { withBase } from '@/utils/asset';
 
 /**
- * Real projects first, placeholders last. The three featured projects below
- * are based on actual work — double-check descriptions, tags, and links
- * before publishing, and add screenshots to `/public/projects/`.
- *
- * The entries marked PLACEHOLDER are scaffolding from the brief (landing
- * pages / API REST / dashboard) — replace or delete them once you have
- * real projects to show, don't ship the site with fake case studies.
+ * All entries below are real projects. Images are illustrative mockups in
+ * `/public/projects/` (no live screenshots yet) — drop a real screenshot in
+ * that folder with the same filename to replace one whenever it's ready.
  */
 export const PROJECTS: Project[] = [
   {
@@ -61,11 +57,26 @@ export const PROJECTS: Project[] = [
     year: 2025,
   },
   {
-    id: 'landing-page-placeholder',
-    title: 'Landing Page Para Pisicólogo',
+    id: 'automacao-cadastro',
+    title: 'Automação de Cadastro',
     description:
-      'Página de venda de curso para pisicólogo ',
-    image: withBase('projects/placeholder-landing.svg'),
+      'Script em Python que lê planilhas de cadastro e preenche automaticamente o sistema interno da empresa, eliminando a digitação manual linha a linha.',
+    longDescription:
+      'Automação criada para acelerar o cadastro em lote no sistema interno da empresa: os dados são lidos e tratados de planilhas Excel/CSV com Pandas e openpyxl, e um script com Selenium preenche o formulário de cadastro do sistema para cada linha automaticamente.',
+    image: withBase('projects/automacao-cadastro.svg'),
+    tags: ['Python', 'Pandas', 'Selenium', 'openpyxl', 'RPA'],
+    categories: ['automation'],
+    githubUrl: undefined,
+    liveUrl: undefined,
+    status: 'archived',
+    featured: false,
+    year: 2026,
+  },
+  {
+    id: 'landing-page-psicologo',
+    title: 'Landing Page Para Psicólogo',
+    description: 'Página de venda de curso para psicólogo.',
+    image: withBase('projects/landing-page-psicologo.svg'),
     tags: ['React', 'Tailwind CSS', 'Framer Motion'],
     categories: ['frontend'],
     githubUrl: 'https://github.com/Gianinil/curso-4-temperamentos',
@@ -74,15 +85,13 @@ export const PROJECTS: Project[] = [
     featured: false,
     year: 2026,
   },
-  
   {
     id: 'app-trilha-tabuada',
     title: 'Trilha da Tabuada',
-    description:
-      'Um jogo mobile para crianças com o objetivo de ensinar a matematica de uma forma divertida.',
-    image: withBase('projects/placeholder-dashboard.svg'),
+    description: 'Um jogo mobile para crianças com o objetivo de ensinar a matematica de uma forma divertida.',
+    image: withBase('projects/trilha-tabuada.svg'),
     tags: ['React', 'TypeScript', 'Data Viz'],
-    categories: ['frontend', 'automation'],
+    categories: ['frontend', 'mobile'],
     githubUrl: 'https://github.com/Gianinil/trilha-tabuada',
     liveUrl: undefined,
     status: 'archived',

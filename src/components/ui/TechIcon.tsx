@@ -15,6 +15,7 @@ import {
   SiDocker,
   SiInstagram,
   SiWhatsapp,
+  SiPython,
 } from 'react-icons/si';
 import { FaLinkedin } from 'react-icons/fa6';
 import { TbBrandAzure, TbBrandVscode } from 'react-icons/tb';
@@ -48,6 +49,7 @@ const REACT_ICON_MAP: Record<string, IconType> = {
   vscode: TbBrandVscode,
   dotnet: DiDotnet,
   sqlserver: DiMsqlServer,
+  python: SiPython,
 };
 
 const LUCIDE_ICON_MAP: Record<string, LucideIcon> = {
