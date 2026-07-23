@@ -51,7 +51,7 @@ export function Contact() {
       id="contato"
       eyebrow="Contato"
       title="Vamos conversar"
-      subtitle="Aberto a oportunidades de Front-End, Full Stack ou Software Engineering. Me chame por aqui ou pelas redes abaixo."
+      subtitle="Aberto a oportunidades de Front-End, Full Stack ou Analista de Sistemas. Me chame por aqui ou pelas redes abaixo."
     >
       <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:gap-16">
         <RevealOnScroll variants={fadeInUp} className="space-y-6">

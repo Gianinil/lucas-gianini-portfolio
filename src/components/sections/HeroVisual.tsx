@@ -5,7 +5,7 @@ import { EASE_PREMIUM } from '@/constants';
 const CODE_LINES = [
   { text: 'const engineer = {', indent: 0 },
   { text: "name: 'Lucas Gianini',", indent: 1 },
-  { text: "role: 'Software Engineer',", indent: 1 },
+  { text: "role: 'Analista de Sistemas',", indent: 1 },
   { text: "stack: ['React', 'TypeScript', '.NET'],", indent: 1 },
   { text: 'focus: () => performance + design,', indent: 1 },
   { text: '};', indent: 0 },
