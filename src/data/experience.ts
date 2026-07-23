@@ -11,14 +11,14 @@ export const EXPERIENCE: ExperienceItem[] = [
     id: 'gerence-sistemas',
     role: 'Auxiliar de Suporte',
     organization: 'Gerence Sistemas',
-    period: '04/2026 — Atualmente',
+    period: '04/2026 - Atualmente',
     description: 'Diagnóstico e resolução de problemas no ERP de gastronomia da empresa, com foco em banco de dados Firebird. Envolve análise de logs, identificação de falhas de conexão e integridade de dados, e suporte técnico completo ao sistema para os clientes.',
     type: 'work',
   },
 
   {
     id: 'via-sancta-dev',
-    role: 'Desenvolvedor Mobile — Projeto Autoral',
+    role: 'Desenvolvedor Mobile - Projeto Autoral',
     organization: 'Via Sancta',
     period: '2026',
     description: 'Desenvolvimento de aplicativo mobile para católicos com Expo/React Native, do zero ao protótipo navegável.',
@@ -31,7 +31,7 @@ export const EXPERIENCE: ExperienceItem[] = [
 
   {
     id: 'trilha-tabuada',
-    role: 'Desenvolvedor Mobile — Projeto Autoral',
+    role: 'Desenvolvedor Mobile - Projeto Autoral',
     organization: 'Trilha da Tabuada',
     period: '2026',
     description: 'Aplicativo sendo desenvolvido para ensinar operações basicas em formato de jogo para crianças com design infantil.',
@@ -43,9 +43,9 @@ export const EXPERIENCE: ExperienceItem[] = [
 
   {
     id: 'aurionsys-dev',
-    role: 'Desenvolvedor Full Stack — Projeto Autoral',
+    role: 'Desenvolvedor Full Stack - Projeto Autoral',
     organization: 'AurionSYS',
-    period: '2026 — atual',
+    period: '2026 - atual',
     description:
       'Construção de um ERP multi-tenant para lojas de vestuário, do modelo de dados à interface, com foco em arquitetura escalável.',
     highlights: [

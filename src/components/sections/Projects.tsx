@@ -35,7 +35,7 @@ export function Projects() {
       id="projetos"
       eyebrow="Projetos"
       title="O que eu já construí"
-      subtitle="Uma seleção de projetos reais e alguns espaços reservados para o que vem por aí — filtre por tecnologia ou busque pelo nome."
+      subtitle="Uma seleção de projetos reais e alguns espaços reservados para o que vem por aí. Filtre por tecnologia ou busque pelo nome."
     >
       <ProjectFilters
         categories={ALL_CATEGORIES}

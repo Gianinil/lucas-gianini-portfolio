@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     id: 'tcc-sistema-comercial',
     title: 'Sistema Comercial (TCC)',
     description:
-      'Sistema de gestão comercial — vendas, estoque e clientes — desenvolvido como Trabalho de Conclusão de Curso.',
+      'Sistema de gestão comercial - vendas, estoque e clientes - desenvolvido como Trabalho de Conclusão de Curso.',
     longDescription:
       'Projeto acadêmico de TCC com foco em modelagem de dados, regras de negócio de vendas/estoque e documentação completa do processo de desenvolvimento.',
     image: withBase('projects/tcc-sistema-comercial.svg'),
@@ -62,7 +62,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'landing-page-placeholder',
-    title: 'Landing Page para pisicólogo',
+    title: 'Landing Page Para Pisicólogo',
     description:
       'Página de venda de curso para pisicólogo ',
     image: withBase('projects/placeholder-landing.svg'),
@@ -83,7 +83,7 @@ export const PROJECTS: Project[] = [
     image: withBase('projects/placeholder-dashboard.svg'),
     tags: ['React', 'TypeScript', 'Data Viz'],
     categories: ['frontend', 'automation'],
-    githubUrl: 'https://github.com/Gianinil/dashboard',
+    githubUrl: 'https://github.com/Gianinil/trilha-tabuada',
     liveUrl: undefined,
     status: 'archived',
     featured: false,

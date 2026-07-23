@@ -7,15 +7,15 @@ import type { NavLink } from '@/types';
  */
 export const SITE = {
   name: 'Lucas Gianini',
-  role: 'Software Engineer',
+  role: 'Analista de Sistemas',
   tagline: 'Full Stack Development · React, TypeScript & .NET',
   description:
-    'Software Engineer especializado em construir produtos web rápidos, acessíveis e bem arquitetados — do front-end ao back-end.',
+    'Desenvolvedor Full Stack focado em construir produtos web rápidos, acessíveis e bem arquitetados do front-end ao back-end.',
   url: 'https://gianinil.github.io/lucas-gianini-portfolio/',
   locale: 'pt-BR',
   keywords: [
     'Lucas Gianini',
-    'Software Engineer',
+    'Analista de Sistemas',
     'Desenvolvedor Front-End',
     'Full Stack Developer',
     'React',
